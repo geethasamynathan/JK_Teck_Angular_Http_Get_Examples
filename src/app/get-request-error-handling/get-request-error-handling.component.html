@@ -1,0 +1,8 @@
+<p>get-request-error-handling works!</p>
+<div *ngIf="!error1 else errortrue">
+    <p> {{totalAngularPackages}}</p>
+
+</div>
+<ng-template #errortrue>
+    <p>  {{errorMessage}}</p>
+</ng-template>
